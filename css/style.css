@@ -1,0 +1,92 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Grid 960px (tamanho mais padrão de site que existe) */
+.linha{
+  width: 960px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 5px 0;
+}
+
+.coluna{
+  padding: 0 10px;
+  float: left;
+}
+
+.col1{
+  width: 60px;
+}
+.col2{
+  width: 140px;
+}
+.col3{
+  width: 220px;
+}
+.col4{
+  width: 300px;
+}
+.col5{
+  width: 380px;
+}
+.col6{
+  width: 460px;
+}
+.col7{
+  width: 540px;
+}
+.col8{
+  width: 620px;
+}
+.col9{
+  width: 700px;
+}
+.col10{
+  width: 780px;
+}
+.col11{
+  width: 860px;
+}
+.col12{
+  width: 940px;
+}
+
+h4{
+  color: #315e8a;
+  padding: 10px;
+  font-weight: 500;
+  margin: 15px 0 10px 0;
+  font-style: italic;
+}
+
+.header{
+  background: #dee3e6;
+}
+
+h1.logo{
+  font-weight: 300;
+  color: #315e8a;
+  letter-spacing: -1px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+ul li{
+  list-style: none;  
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.footer{
+  background: #1f3c58;
+  color: #ebebeb;
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 100;
+}

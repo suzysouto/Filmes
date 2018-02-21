@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Filmes</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700" rel="stylesheet" />
+	<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="linha">
+			<header>
+				<div class="coluna col4">
+					<h1 class="logo">Lista de filmes</h1>
+				</div>
+			</header>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row" id="filmes"></div>
+	</div>
+	<div class="footer">
+		<div class="linha">
+			<footer>
+				<div class="coluna col12">
+					<span>&copy; 2018 - 3S Desenvolvimento Web</span>
+				</div>
+			</footer>
+		</div>
+	</div>
+	<script
+			  src="http://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+		exibirFilmes();
+	</script>
+</body>
+</html>
